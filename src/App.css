@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.screenshot {
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.capture-btn {
+  margin-bottom: 20px;
+  cursor: pointer;
+}

@@ -1,13 +1,13 @@
-import logo from "./logo.svg";
+import React from "react";
+import ScreenShot from "./ScreenShot";
 import "./App.css";
-import ScreenShot from "./screenshot";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <ScreenShot />
     </div>
   );
-}
+};
 
 export default App;
