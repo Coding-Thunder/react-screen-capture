@@ -1,0 +1,7 @@
+var c = document.getElementById('the_canvas_element_id');
+var t = c.getContext('2d');
+
+
+
+// when user clicks this will open the 2d view in new window
+window.open('', document.getElementById('the_canvas_element_id').toDataURL());
